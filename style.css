@@ -1,0 +1,27 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: pink;
+}
+
+.container {
+    width: 100vw;
+    height: 50vh;
+}
+
+.title {
+    justify-content: center;
+    text-align: center;
+    margin-top: 23%;
+    color: #222;
+    font-style: oblique;
+}
+
+@media only screen and (max-width: 476px) {
+    .title {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 100%;
+    }
+}
